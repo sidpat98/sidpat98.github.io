@@ -22,7 +22,7 @@
 <script src="./js/vanta.birds.min.js"></script>
 <script>
 VANTA.BIRDS({
-  el: "#your-element-selector",
+  el: '#element',
   wingSpan: 29.00,
   speedLimit: 4.00,
   quantity: 4.00
@@ -34,6 +34,9 @@ VANTA.BIRDS({
 <!--CSS -->
   <style type="text/css">
 
+    div {
+      width: 600px; height: 360px; margin-bottom: 10px;
+    }
 
   </style>
 </head>
@@ -43,7 +46,9 @@ VANTA.BIRDS({
 
 <!-- HTML -->
   <body>
-  	<h1>Hey there, this is Siddhesh Patil</h1>
+    <div id="element">
+  	 <h1>Hey there, this is Siddhesh Patil</h1>
+    </div>
   </body>
 </html>
 
